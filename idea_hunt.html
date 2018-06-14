@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/product_sans_font">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="Hover-master/Hover-master/css/hover-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="images/bulb.png" rel="icon">
+	
+	
+	
+    <title>Idea Hunt</title>
+	
+	<style>
+	.categorie-search-box form {
+    color: #a9a9a9;
+    height: 48px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+	}
+
+
+
+.categorie-search-box input {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 36px;
+    color: #a9a9a9;
+    font-size: 13px;
+    height: 42px;
+    padding: 0 60px 0 18px;
+    width: 100%;
+	outline : none;
+	}
+	
+	
+	.categorie-search-box searchs {
+     font-size: 21px;
+	 color:#000;
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    position: absolute;
+    right: 6px;
+    text-align: center;
+    top: 6px;
+    -webkit-transition: all 300ms ease-in 0s;
+    transition: all 300ms ease-in 0s;
+    width: 36px;
+}
+.pb-3 {margin-left : 9%;
+width : 10%;
+		border-bottom:1px solid #000;}
+.backs > p {padding-left : 30%;}
+.backs > p:hover{background:#5B52A3;
+				 color:#fff;
+				 border-radius:5px;}
+.serach_hide {display:none;}
+.serach_hides {display:none;}
+@media (min-width:10px) and (max-width:575px) { .serach_hide {display:block !important; } .backs  {width:30%;}  }
+@media (min-width:576px) and (max-width:10000000px) { .serach_hides {display:block !important; } }
+@media (min-width: 10px ) and (max-width:575px) {.link_hiddens {display: none; } .ml-auto, .mx-auto{     display: -webkit-inline-box; font-size:12px;}}
+
+	</style>
+</head>
+<body>
+
+<!-- ############################### START HERE ################################ -->
+
+<!-- Main Navigation -->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="images/Asset%207.png" class="w-100">
+            </a>
+			<div class="col-lg-6 col-sm-6 serach_hide">
+                            <div class="categorie-search-box">
+                                <form action="#">
+                                    
+                                    
+									<input type="text" name="search" placeholder="Searchs...?">
+                                    <searchs><i class="fa fa-search"></i></searchs>
+                                </form>
+                            </div>
+							<div>
+							<ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-2">
+                        <a class="nav-link hvr-underline-from-center"><d class="link_hiddens"> Home</d>
+                            <i class="fa fa-home"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link hvr-underline-from-center" data-toggle="modal" data-target="#contactModa2"><d> Categories</d>
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </li>
+                    <!-- Contact Modal -->
+                    <div class="modal animated zoomIn" id="contactModa2">
+                        <div class="modal-dialog vinay">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <h3 class="text-dark pb-3" style="font:25px;"> DISCOVER </h3>
+									 
+        
+                                    <div class="row ">
+                                        <div class="col-md-4 col-sm-6 backs">
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 backs">
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 backs">
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                        </div>
+                                    </div>
+                                </div>
+								
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <li class="nav-item px-2 nav-icons ">
+                        <a class="nav-link hvr-underline-from-center"><d>Sign in</d>
+                            <i class="fa fa-sign-in-alt"></i> </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link hvr-underline-from-center"><d>Sign up</d>
+                            <i class="fa fa-sign-in-alt"></i> </a>
+                    </li>
+                </ul>
+							</div>
+                        </div>
+            <!-- <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="main-navbar">
+                 <div class="col-lg-6 col-sm-6 serach_hides">
+                            <div class="categorie-search-box">
+                                <form action="#">
+                                    
+                                    
+									<input type="text" name="search" placeholder="Search... ">
+                                    <searchs><i class="fa fa-search"></i></searchs>
+                                </form>
+                            </div>
+							
+                        </div>
+						
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-2">
+                        <a class="nav-link hvr-underline-from-center"><d class="link_hidden"> Home</d>
+                            <i class="fa fa-home"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link hvr-underline-from-center" data-toggle="modal" data-target="#contactModal"><d class="link_hidden"> Categories</d>
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </li>
+                    <!-- Contact Modal -->
+                    <div class="modal animated zoomIn " id="contactModal">
+                        <div class="modal-dialog vinay">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <h3 class="text-dark pb-3 ">DISCOVER</h3>
+                                    <div class="row ">
+                                        <div class="col-md-4 col-sm-6 col-xs-6 backs">
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 col-xs-6 backs">
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 col-xs-6 backs">
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                            <p>Animal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <li class="nav-item px-2 nav-icons ">
+                        <a class="nav-link hvr-underline-from-center"><d class="link_hidden">Sign in</d>
+                            <i class="fa fa-sign-in-alt"></i> </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link hvr-underline-from-center"><d class="link_hidden">Sign up</d>
+                            <i class="fa fa-sign-in-alt"></i> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+
+
+    <!--Images Start Here-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="grid">
+                    <figure class="effect-zoe " >
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm"></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="grid">
+                    <figure class="effect-zoe ">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 ">
+                <div class="grid">
+                    <figure class="effect-zoe ">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="grid">
+                    <figure class="effect-zoe ">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></i></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/03.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/04.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/12.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/02.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 ">
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/11.jpg" class="w-100" alt="img01">
+                        <figcaption>
+                            <h3>city road <k><i class="fa fa-arrow-circle-down fa-sm "></i></k></h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</html>
